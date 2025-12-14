@@ -1,0 +1,92 @@
+.login-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 25px;
+  background: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.login-form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+.login-form input {
+  padding: 8px;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+button {
+   background: #007bff;
+  margin: 20px 15px;
+  padding: 15px;
+  font-size: 16px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  display: block;
+  width: auto; 
+  
+}
+
+
+
+.switch-btn {
+  background: #007bff;
+  margin: 15px auto;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  display: block;
+  width: auto; 
+  
+}
+
+
+.switch-text {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.switch-text span {
+  color: #007bff;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.password-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.password-wrapper input {
+  width: 100%;
+  padding-right: 40px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.eye-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  cursor: pointer;
+  user-select: none;
+}

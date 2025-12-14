@@ -1,0 +1,66 @@
+.Uploadjson-container {
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-family: Arial, sans-serif;
+}
+
+.UploadJson-Form {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.UploadJson-button {
+  padding: 10px 20px;
+  background-color: #1e90ff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.UploadJson-button:hover {
+  background-color: #007acc;
+}
+
+.UploadJson-response {
+  margin-top: 15px;
+  font-size: 16px;
+  color: green;
+  text-align: center;
+}
+
+.college-course-table {
+  margin-top: 30px;
+}
+
+.college-course-table h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #444;
+}
+
+.college-course-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.college-course-table th,
+.college-course-table td {
+  border: 1px solid #aaa;
+  padding: 10px;
+  text-align: left;
+}
+
+.college-course-table thead {
+  background-color: #f4f4f4;
+}
+
+.college-course-table tr:nth-child(even) {
+  background-color: #fafafa;
+}
